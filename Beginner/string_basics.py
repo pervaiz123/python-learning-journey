@@ -1,0 +1,11 @@
+str =("Hello World")
+print(str)
+print(str[0:5])
+print(str[6:5]) 
+print(str[6:8])
+print(str[0:4:2])
+print(str[0:8:3])
+print(str[0:4:4])
+print(str*4)
+
+print ("Hello World" + ", " + "World" , "Hello World" * 4)      

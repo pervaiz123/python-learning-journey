@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0f172a;
+    color: white;
+    transition: 0.3s;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px;
+    background: linear-gradient(135deg, #111827, #1e293b);
+}
+
+.profile {
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.buttons a,
+button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    background: #38bdf8;
+    color: black;
+    border-radius: 5px;
+}
+
+section {
+    padding: 50px;
+}
+
+.grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #1e293b;
+    padding: 15px;
+    border-radius: 10px;
+    width: 300px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* LIGHT MODE */
+.light {
+    background: white;
+    color: black;
+}

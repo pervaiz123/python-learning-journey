@@ -1,0 +1,7 @@
+{
+    "python.defaultInterpreterPath": "C:\\Program Files\\Python313\\python.exe",
+    "python.analysis.extraPaths": [
+        "C:\\Users\\user\\AppData\\Roaming\\Python\\Python313\\site-packages"
+    ],
+    "python-envs.defaultEnvManager": "ms-python.python:system"
+}
